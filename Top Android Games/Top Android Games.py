@@ -15,5 +15,6 @@ wordcloud = WordCloud(collocations = False, background_color = 'white').generate
 
 # Display the generated image:
 plt.imshow(wordcloud, interpolation='bilinear')
+plt.title("Word Cloud of Top Android Games from Play Store")
 plt.axis("off")
 plt.show()
